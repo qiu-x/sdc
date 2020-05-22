@@ -1,5 +1,7 @@
 # SDC - Simple Don't touch the spikes Clone
 
+![](.screenshot.png)
+
 ## Build Dependencies
 
 Alpine Linux:
