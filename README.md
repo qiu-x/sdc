@@ -4,22 +4,22 @@
 
 Alpine Linux:
 
-- sfml
-- sfml-dev
-- csfml
-- csfml-dev
+- `sfml`
+- `sfml-dev`
+- `csfml`
+- `csfml-dev`
 
 Void Linux:
 
-- SFML
-- SFML-devel
-- CSFML
-- CSFML-devel
+- `SFML`
+- `SFML-devel`
+- `CSFML`
+- `CSFML-devel`
 
 Arch Linux:
 
-- sfml
-- csfml
+- `sfml`
+- `csfml`
 
 ## Building
 
