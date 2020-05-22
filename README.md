@@ -1,4 +1,4 @@
-# SDC -- Simple Don't touch the spikes Clone
+# SDC - Simple Don't touch the spikes Clone
 
 ## Build Dependencies
 
