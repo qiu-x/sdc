@@ -29,3 +29,4 @@ Arch Linux:
 ## Running
 
 	./build/sdc
+Note: Proper hitboxes aren't implemented yet.
