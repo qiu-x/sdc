@@ -1,0 +1,279 @@
+Build started at 2020-05-22T15:16:55.378516
+Main binary: /usr/bin/python3
+Build Options: -Dbackend=ninja
+Python system: Linux
+The Meson build system
+Version: 0.54.2
+Source dir: /home/qiu/.local/share/code/sdc
+Build dir: /home/qiu/.local/share/code/sdc/build
+Build type: native build
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Project name: sdc
+Project version: 0.1.0
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/qiu/.local/share/code/sdc/build/meson-private/sanitycheckc.c -o /home/qiu/.local/share/code/sdc/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/qiu/.local/share/code/sdc/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 9.3.0 "cc (Alpine 9.3.0) 9.3.0")
+C linker for the build machine: cc ld.bfd 2.34
+None of 'AR' are defined in the environment, not changing global flags.
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/qiu/.local/share/code/sdc/build/meson-private/sanitycheckc.c -o /home/qiu/.local/share/code/sdc/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/qiu/.local/share/code/sdc/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 9.3.0 "cc (Alpine 9.3.0) 9.3.0")
+C linker for the host machine: cc ld.bfd 2.34
+None of 'AR' are defined in the environment, not changing global flags.
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmp3t5zm_mh
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmp3t5zm_mh/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmp3t5zm_mh/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wundef 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wundef: YES 
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmpesy_t0z7
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmpesy_t0z7/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmpesy_t0z7/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wlogical-op 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wlogical-op: YES 
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmp0bl241pm
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmp0bl241pm/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmp0bl241pm/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-include-dirs 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmpbd3c1kbr
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmpbd3c1kbr/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmpbd3c1kbr/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-definition 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmp7hiycts3
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmp7hiycts3/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmp7hiycts3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wpointer-arith 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmp4mna5dgg
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmp4mna5dgg/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmp4mna5dgg/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Winit-self 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Winit-self: YES 
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmpmpa1o625
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmpmpa1o625/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmpmpa1o625/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmp2rplr5w0
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmp2rplr5w0/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmp2rplr5w0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wimplicit-fallthrough=2 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wimplicit-fallthrough=2: YES 
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmpj3r8zxlp
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmpj3r8zxlp/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmpj3r8zxlp/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wendif-labels 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wendif-labels: YES 
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmpvo0wiu05
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmpvo0wiu05/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmpvo0wiu05/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-aliasing=2 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-aliasing=2: YES 
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmpq_svzf5n
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmpq_svzf5n/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmpq_svzf5n/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Woverflow 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Woverflow: YES 
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmp_homqs18
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmp_homqs18/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmp_homqs18/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-braces -Wmissing-braces 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-braces -Wmissing-braces: YES 
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmpwrmhgc_u
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmpwrmhgc_u/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmpwrmhgc_u/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-field-initializers -Wmissing-field-initializers 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-field-initializers -Wmissing-field-initializers: YES 
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmpbezx1yqo
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmpbezx1yqo/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmpbezx1yqo/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-parameter -Wunused-parameter 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES 
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmpoz6bu_t8
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmpoz6bu_t8/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmpoz6bu_t8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -O3 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -O3: YES 
+meson.build:32: WARNING: Consider using the built-in optimization level instead of using "-O3".
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmphu7gjsnl
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmphu7gjsnl/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmphu7gjsnl/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/qiu/.local/share/code/sdc/build/meson-private/tmpuhnygq3n
+Command line:  cc /home/qiu/.local/share/code/sdc/build/meson-private/tmpuhnygq3n/testfile.c -o /home/qiu/.local/share/code/sdc/build/meson-private/tmpuhnygq3n/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-alpine-linux-musl/9.3.0/
+programs: =/usr/libexec/gcc/x86_64-alpine-linux-musl/9.3.0/:/usr/libexec/gcc/x86_64-alpine-linux-musl/9.3.0/:/usr/libexec/gcc/x86_64-alpine-linux-musl/:/usr/lib/gcc/x86_64-alpine-linux-musl/9.3.0/:/usr/lib/gcc/x86_64-alpine-linux-musl/:/usr/lib/gcc/x86_64-alpine-linux-musl/9.3.0/../../../../x86_64-alpine-linux-musl/bin/x86_64-alpine-linux-musl/9.3.0/:/usr/lib/gcc/x86_64-alpine-linux-musl/9.3.0/../../../../x86_64-alpine-linux-musl/bin/
+libraries: =/usr/lib/gcc/x86_64-alpine-linux-musl/9.3.0/:/usr/lib/gcc/x86_64-alpine-linux-musl/9.3.0/../../../../x86_64-alpine-linux-musl/lib/x86_64-alpine-linux-musl/9.3.0/:/usr/lib/gcc/x86_64-alpine-linux-musl/9.3.0/../../../../x86_64-alpine-linux-musl/lib/../lib/:/usr/lib/gcc/x86_64-alpine-linux-musl/9.3.0/../../../x86_64-alpine-linux-musl/9.3.0/:/usr/lib/gcc/x86_64-alpine-linux-musl/9.3.0/../../../../lib/:/lib/x86_64-alpine-linux-musl/9.3.0/:/lib/../lib/:/usr/lib/x86_64-alpine-linux-musl/9.3.0/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-alpine-linux-musl/9.3.0/../../../../x86_64-alpine-linux-musl/lib/:/usr/lib/gcc/x86_64-alpine-linux-musl/9.3.0/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Library libcsfml-window found: YES
+Library libcsfml-system found: YES
+Library libcsfml-graphics found: YES
+Build targets in project: 1
+
+Found ninja-1.9.0 at /usr/bin/ninja
+None of 'STRIP' are defined in the environment, not changing global flags.
+None of 'STRIP' are defined in the environment, not changing global flags.
