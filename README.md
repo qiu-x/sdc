@@ -1,6 +1,8 @@
 # SDC - Simple Don't touch the spikes Clone
 
-<img align="center" height="100" src=".screenshot.png">
+<p align="center">
+  <img height="400" src=".screenshot.png">
+</p>
 
 ## Build Dependencies
 
