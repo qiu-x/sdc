@@ -23,10 +23,9 @@ Arch Linux:
 
 ## Building
 
-```make```
+```meson build
+ninja -C build```
 
 ## Running
 
-```make run```
-or
-```./sdc```
+```./build/sdc```
