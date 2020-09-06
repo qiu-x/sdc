@@ -2,20 +2,22 @@
 #define GAME_H
 
 #include <SFML/Graphics.h>
+#include "inputhandler.h"
+
 
 #define WINDOW_WIDTH 1366
 #define WINDOW_HEIGHT 768
 #define GAMESTATE start
 
-sfEvent           event;
+extern sfEvent           event;
 
 enum gamestate { pause, start, game };
-enum gamestate gs;
-sfRenderWindow   *window;
-sfVector2u        ws;
-sfView           *gameview;
-double            fallspeed;
-double            flyspeed;
+extern enum gamestate gs;
+extern sfRenderWindow   *window;
+extern sfVector2u        ws;
+extern sfView           *gameview;
+extern double            fallspeed;
+extern double            flyspeed;
 
 int  init                 (void); 
 int  run                  (void); 

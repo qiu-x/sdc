@@ -3,42 +3,31 @@
 /* #include <math.h> */
 
 #include "game.h"
-#include "inputhandler.h"
 
-// Background elements
-sfCircleShape    *circle;
-sfText           *circle_text;
-sfFont           *circle_textfont;
-sfRectangleShape *background;
-sfRectangleShape *bottomrect;
-sfRectangleShape *toprect;
-sfTexture        *triangleTexture;
-sfSprite         *triangleSprite;
-sfSprite         *btris[7];
-sfSprite         *ttris[7];
+sfEvent           event;
 
-// Startmenu elements
-double            menuxpos = 0;
-sfRectangleShape *menubg;
-sfRectangleShape *menubgborder;
-sfRectangleShape *resumebutton;
-sfRectangleShape *resumebuttonborder;
-sfText           *resumebutton_text;
-sfRectangleShape *helpbutton;
-sfRectangleShape *helpbuttonborder;
-sfText           *helpbutton_text;
+enum gamestate gs;
+sfRenderWindow   *window;
+sfVector2u        ws;
+sfView           *gameview;
+double            fallspeed;
+double            flyspeed;
+
+
 
 // Game elements
-sfTexture        *birdTexture1;
-sfTexture        *birdTexture2;
-sfSprite         *birdSprite;
-sfClock          *timer;
-sfSprite         *stris[10];
-float             bird_x = 0;
-float             bird_y = 0;
-sfFloatRect       visibleArea;
-int               score = 0;
-float             ratio;
+struct Game_t {
+	sfTexture        *birdTexture1;
+	sfTexture        *birdTexture2;
+	sfSprite         *birdSprite;
+	sfClock          *timer;
+	sfSprite         *stris[10];
+	float             bird_x;
+	float             bird_y;
+	int               score;
+	sfFloatRect       visibleArea;
+	float             ratio;
+} Game;
 
 sfVector2f
 sfVector2f_fromFloat(float x, float y)
