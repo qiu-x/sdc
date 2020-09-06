@@ -5,9 +5,10 @@ project(
 	license: 'MIT',
 	meson_version: '>=0.49.0',
 	default_options: [
-		'c_std=c11',
+		'c_std=c18',
 		'warning_level=2',
 		'werror=true',
+		'optimization=3',
 	],
 )
 
@@ -28,7 +29,6 @@ add_project_arguments(cc.get_supported_arguments([
 	'-Wno-missing-braces',
 	'-Wno-missing-field-initializers',
 	'-Wno-unused-parameter',
-	'-O3'
 ]), language: 'c')
 
 csfmlwindow = cc.find_library('libcsfml-window', dirs : ['/usr/lib'])
@@ -37,8 +37,8 @@ csfmlgraphics = cc.find_library('libcsfml-graphics', dirs : ['/usr/lib'])
 
 sdc = executable('sdc',
 	files(
-		'src/game.c',
 		'src/inputhandler.c',
+		'src/game.c',
 		'src/main.c',
 	),
 	dependencies: [
