@@ -1,7 +1,6 @@
-#include <SFML/Graphics.h>
 #include <stdio.h>
 #include "inputhandler.h"
-#include "game.h"
+
 
 void
 handleinput(void)
