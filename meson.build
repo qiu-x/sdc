@@ -31,9 +31,9 @@ add_project_arguments(cc.get_supported_arguments([
 	'-Wno-unused-parameter',
 ]), language: 'c')
 
-csfmlwindow = cc.find_library('libcsfml-window', dirs : ['/usr/lib'])
-csfmlsystem = cc.find_library('libcsfml-system', dirs : ['/usr/lib'])
-csfmlgraphics = cc.find_library('libcsfml-graphics', dirs : ['/usr/lib'])
+csfmlwindow = cc.find_library('libcsfml-window', dirs : ['/usr/lib', '/usr/local/lib'])
+csfmlsystem = cc.find_library('libcsfml-system', dirs : ['/usr/lib', '/usr/local/lib'])
+csfmlgraphics = cc.find_library('libcsfml-graphics', dirs : ['/usr/lib', '/usr/local/lib'])
 
 sdc = executable('sdc',
 	files(
