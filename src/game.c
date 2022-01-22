@@ -375,10 +375,23 @@ stris_animation(void)
 void
 colcheck_update(void)
 {
+	// Bottom spikes
+	if (sfSprite_getPosition(Triangles.btris[0]).y <= sfSprite_getPosition(Game.birdSprite).y)
+	{
+		game_close();
+	}
+
+	// Top spikes
+	if (sfSprite_getPosition(Triangles.ttris[0]).y >= sfSprite_getPosition(Game.birdSprite).y)
+	{
+		game_close();
+	}
+
+	// Side spikes
 	for (int i = 0; i < 10; i++)
 	{
-		if(sfSprite_getGlobalBounds(Game.stris[i]).width * 0.4 >\
-		sfSprite_getGlobalBounds(Game.birdSprite).left)
+		if(sfView_getSize(gameview).x - sfSprite_getGlobalBounds(Game.stris[i]).width * 0.4<\
+		sfSprite_getGlobalBounds(Game.birdSprite).left + sfSprite_getGlobalBounds(Game.birdSprite).width)
 		{
 			if((sfSprite_getGlobalBounds(Game.birdSprite).top > sfSprite_getGlobalBounds(Game.stris[i]).top\
 			-  sfSprite_getGlobalBounds(Game.stris[i]).height) &&
@@ -386,10 +399,10 @@ colcheck_update(void)
 			< sfSprite_getGlobalBounds(Game.stris[i]).top) &&\
 			sfSprite_getGlobalBounds(Game.birdSprite).left<\
 			sfSprite_getGlobalBounds(Game.stris[i]).left)
-			printf("l\n");
+			game_close();
 		}
-		else if(sfView_getSize(gameview).x - sfSprite_getGlobalBounds(Game.stris[i]).width * 0.4<\
-		sfSprite_getGlobalBounds(Game.birdSprite).left + sfSprite_getGlobalBounds(Game.birdSprite).width)
+		else if(sfSprite_getGlobalBounds(Game.stris[i]).width * 0.4 >\
+		sfSprite_getGlobalBounds(Game.birdSprite).left)
 		{
 			if((sfSprite_getGlobalBounds(Game.birdSprite).top > sfSprite_getGlobalBounds(Game.stris[i]).top\
 			-  sfSprite_getGlobalBounds(Game.stris[i]).height) &&
@@ -397,7 +410,7 @@ colcheck_update(void)
 			< sfSprite_getGlobalBounds(Game.stris[i]).top) &&\
 			sfSprite_getGlobalBounds(Game.birdSprite).left + sfSprite_getGlobalBounds(Game.birdSprite).width >\
 			sfSprite_getGlobalBounds(Game.stris[i]).left)
-			printf("r\n");
+			game_close();
 		}
 	}
 }
